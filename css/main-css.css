@@ -1,0 +1,38 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #828285;
+	font-weight: 300;
+}
+
+/*
+ *
+ * Fonts
+ *
+ */
+
+.text-thin {
+	font-weight: 100
+}
+
+.text-muted {
+	color: #999999;
+}
+
+.big-title {
+	font-size: 60px;
+}
+
+
+/*
+ *
+ * Images
+ *
+ */
+
+ .fit-container {
+ 	max-height: 200px;
+ 	max-width: 340px;
+ 	min-height: 100%;
+ 	min-width: 100%;
+ 	padding: 2px
+ }

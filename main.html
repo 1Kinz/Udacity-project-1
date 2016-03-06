@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Udacity P1</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main-css.css">
+    <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/logo.jpg" alt="picture of logo">
+            </div>
+            <div class="col-md-6 text-uppercase text-right">
+                <h1 class="text-thin big-title">Zachary Teh</h1>
+                <h4>Front-end Student</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/snow.jpg" class="img-responsive" alt="snow pic">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center img-responsive">
+                <img class="fit-container" src="img/p1.jpg" data-toggle="modal" data-target="#project1" alt="feature pic 1">
+                <h2 class="text-uppercase">Project 1</h2>
+                <p>link1</p>
+            </div>
+            <div class="col-md-4 text-center img-responsive">
+                <img class="fit-container" src="img/p2.jpg" data-toggle="modal" data-target="#project2" alt="feature pic 2">
+                <h2 class="text-uppercase">Project 2</h2>
+                <p>link2</p>
+            </div>
+            <div class="col-md-4 text-center img-responsive">
+                <img class="fit-container" src="img/p3.jpg" data-toggle="modal" data-target="#project3" alt="feature pic 3">
+                <h2 class="text-uppercase">Project 3</h2>
+                <p>link3</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 1 -->
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/p1.jpg" alt="p1 picture"> This is project #1.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Project 2</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/p2.jpg" alt="p2 picture"> This is project #2.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Project 3</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/p3.jpg" alt="p3 picture"> This is project #3.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
